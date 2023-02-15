@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 
 function About() {
     return (
         <div>
             <h1>About page</h1>
-           <ul>
-                <li><Link to="/User/anil">Anil</Link></li>
-                <li><Link to="/User/peter">peter</Link></li>
-                <li><Link to="/User/sam">peter</Link></li>
+           <ul className="about-one">
+                <li><NavLink className="about-link" to="/User/anil">Anil</NavLink ></li>
+                <li><NavLink className="about-link" to="/User/peter">peter</NavLink ></li>
+                <li><NavLink className="about-link" to="/User/sam">peter</NavLink ></li>
            </ul>
         </div>
     )

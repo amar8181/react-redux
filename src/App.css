@@ -60,3 +60,13 @@
   color: aqua;
   background-color: antiquewhite;
 }
+
+.about-one .about-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.about-one li{
+  display:inline-block;
+  padding: 10px 5px;
+}
