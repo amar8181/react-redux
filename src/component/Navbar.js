@@ -8,6 +8,8 @@ function Navbar() {
                 <li><NavLink className="nav-bar-link" to="/">Home</NavLink></li>
                 <li><NavLink className="nav-bar-link" to="/About">About</NavLink></li>
                 <li><NavLink className="nav-bar-link" to="/Contact">contact us</NavLink></li>
+                <li><NavLink className="nav-bar-link" to="/Filter">filter</NavLink></li>
+
             </ul>
 
 
