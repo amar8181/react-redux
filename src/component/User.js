@@ -1,15 +1,21 @@
-import { useParams } from "react-router-dom";
 
+function User(props) {
 
-function User() {
-    const params = useParams();
-    const { name } = params
-    // console.warn(name)
+    // const { data } = props
 
     return (
-        <>
-            <h1>this is {name} page</h1>
-        </>
+        <div>
+            <h1>user component</h1><br />
+
+            <h3>{props.data.email}</h3>
+            <h3>{props.data.name}</h3>
+            {/* or */}
+            {/* <h3>{data.name}</h3> */}
+            {/* <h3>{data.email}</h3> */}
+
+            {/* two methods use to transfer data from one component to another component */}
+
+        </div>
     )
 }
 export default User;
