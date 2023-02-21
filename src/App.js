@@ -1,16 +1,15 @@
-
 import "./App.css";
+import "./component/style.css"
 import React from 'react';
-import User from "./component/User";
+import HomeContainer from './containers/HomeContainer'
+
 
 function App() {
 
   return (
-    <div className="App">
-
-      {/* <h1>App component</  h1> */}
-      <User data={{ name: "amar", email: "amarmulay23@gmail.com" }} />
-    </div>
+       <div className="App">
+        <HomeContainer />
+       </div>
   );
 }
 export default App;
